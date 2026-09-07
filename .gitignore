@@ -1,0 +1,10 @@
+# Local planning packets and work reports can contain machine paths, endpoint
+# details, or unsanitized evidence. Review and publish a sanitized derivative
+# deliberately; never add these paths wholesale.
+docs/rewrite/input/
+docs/rewrite/work/
+
+# Local runtime state and generated evidence are never source artifacts.
+work/
+data/
+runtime/
