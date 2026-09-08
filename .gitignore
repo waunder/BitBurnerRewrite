@@ -8,3 +8,6 @@ docs/rewrite/work/
 work/
 data/
 runtime/
+
+# Finder metadata
+.DS_Store
