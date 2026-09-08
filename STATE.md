@@ -3,13 +3,15 @@
 ## Current position
 
 Pre-implementation planning is complete through I00, B00, B01, B02, B03,
-B04, A0, and A1. No rewrite game process, daemon, watcher, Steam state, or
-legacy source has been changed.
+B04, A0, A1 and B05 documentation materialization. No rewrite game process,
+daemon, watcher, Steam state, or legacy source has been changed.
 
-The next package is **B05: design integration**. It must resolve the finite
-A1 contract gaps, freeze or explicitly defer the shared contracts and test
-catalogue, and decide whether G1 may close. It must not begin implementation
-or the browser feasibility probe until that work is complete.
+**G1 is accepted.** The independent A1 closure review found that B05/1's
+public contracts and A1 closure matrix provide every A1-01–A1-08 finding a
+concrete rule, negative oracle, owner/gate, stop condition and safe held path.
+The next package is **B05-P preparation**: identify and admit one disposable
+browser environment and record its finite probe write-set before running any
+scenario. No production implementation or Steam work is authorized.
 
 ## Continuation material
 
@@ -25,6 +27,9 @@ accounting, endpoint details, or Steam-targeted configuration.
 
 ## Immediate resume sequence
 
-1. Read `docs/rewrite/work/A1-foundation-contract-audit.md`.
-2. Complete B05 from the I00–B04 and A0/A1 reports.
-3. Record the G1 decision before assigning B05-P or implementation work.
+1. Prepare B05-P's private browser admission record, evidence location and
+   bounded source/write-set; inspect the browser target before any write.
+2. Run only P01–P09 after that preparation. It is browser-only and must stop
+   on every declared identity, ownership, evidence or responsiveness failure.
+3. Keep F01–F06 and all capability implementation inactive until B05-P records
+   the required browser evidence or a finite contract correction.
