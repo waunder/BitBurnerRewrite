@@ -11,7 +11,8 @@ public contracts and A1 closure matrix provide every A1-01–A1-08 finding a
 concrete rule, negative oracle, owner/gate, stop condition and safe held path.
 The next package is **B05-P preparation**: identify and admit one disposable
 browser environment and record its finite probe write-set before running any
-scenario. No production implementation or Steam work is authorized.
+scenario. No production implementation or Steam work is authorized. The
+sanitized B05-P progress record is `docs/rewrite/b05-p-status.md`.
 
 ## Continuation material
 
